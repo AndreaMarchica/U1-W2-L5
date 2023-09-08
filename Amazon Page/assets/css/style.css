@@ -1,0 +1,95 @@
+/* GENERAL */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+.centre {
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.inlineBlock {
+  display: inline-block;
+}
+/* HEADER*/
+header {
+  width: 100vw;
+  background-size: 100%;
+  background-color: #222f3f;
+  height: 5vh;
+}
+header img {
+  width: 10vh;
+  padding: 0.5em 1em;
+}
+/* NAV */
+nav {
+  width: 100vw;
+  height: 2em;
+  background-color: #36475a;
+}
+nav li {
+  display: inline-block;
+  color: white;
+  padding: 0.3em;
+}
+
+/* MAIN */
+main {
+  width: 100vw;
+}
+.holiday {
+  background-color: #f76500;
+  background-size: cover;
+  padding: 0.8em;
+}
+.holiday p {
+  color: white;
+}
+main div {
+  margin-top: 1.8em;
+  margin-right: 1.8em;
+}
+.gift {
+  background-image: url(../images/bg-image.png);
+}
+
+.gift p {
+  color: white;
+  font-weight: 700;
+}
+#holi {
+  font-size: 3em;
+  padding-top: 0;
+}
+#banner p {
+  padding: 0.8em;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+section img {
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+}
+/* FOOTER */
+footer {
+  background-color: #222f3f;
+  text-align: center;
+}
+footer img {
+  width: 6em;
+  padding: 3em;
+}
+footer p {
+  background-color: #36475a;
+  color: white;
+  padding: 0.8em;
+  text-decoration: underline;
+}
